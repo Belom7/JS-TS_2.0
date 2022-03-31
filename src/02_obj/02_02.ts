@@ -5,13 +5,13 @@ type addressType = {
     number?: number
     street: streetType
 }
-type HouseType = {
+export type HouseType = {
     buildedAt: number
     repaired: boolean
     address: addressType
 }
 
-type governmentBuildingsType = {
+export type governmentBuildingsType = {
     type :string
     budget:number
     staffCount:number
